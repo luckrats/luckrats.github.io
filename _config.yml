@@ -1,0 +1,36 @@
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+highlighter: pygments
+
+#local
+port: 80
+
+kramdown:
+  input: GFM
+
+# 作者信息
+author: 
+  name: luckrats 
+  email: luckrats@gmail.com
+  link: http://luckrats.tk
+  weibo: http://weibo.com/luckrats
+  github: http://github.com/luckrats
+
+# 站点信息
+title: luckrats的博客 
+description: luckrats的博客
+url: http://luckrats.tk
+rss_url: /pages/atom.xml
+
+# avatar头像及Favicon
+avatar:  /assets/pic/site-avatar.jpg
+favicon: /assets/pic/site-favicon.ico
+
+# google analytics 设置
+ga:
+  id: UA-69126995-1
+  url: luckrats.tk
+
+# disqus 设置
+disqus:
+  shortname: luckrats
